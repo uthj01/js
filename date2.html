@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>date2</title>
+</head>
+<body>
+
+</body>
+<script>
+	var currentTime=new Date();
+	var hours=currentTime.getHours();
+	var minutes=currentTime.getMinutes();
+
+	if(currentTime<10){
+		minutes="0"+minutes;
+	}
+	console.log("current date"+hours+"."+minutes);
+</script>
+</html>

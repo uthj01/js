@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>five digit</title>
+</head>
+<body>
+	<form>
+	<input type="text" id="num">
+	<input type="button" value="submit" onclick="five()">
+	<p id="demo"></p>
+    </form>
+</body>
+<script>
+	function five(){
+		var a=prompt("enter number1");
+		var count=1;
+		while(count<6)
+		{
+			a++;
+			document.write(a);
+			document.write("<br>");
+			count++;
+		}
+	}
+	
+</script>
+</html>

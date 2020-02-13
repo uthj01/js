@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>array</title>
+</head>
+<body>
+
+</body>
+<script>
+	var a=[]
+	console.log(a.length);
+	var b=new Array(10);
+	console.log(b.length);
+	var n=[10,20,30];
+	console.log(n[0]);
+	console.log(n[n.length-1]);
+	var my=[];
+	my[0]=10;
+	my[1]=20;
+	console.log(my);
+	console.log(my.length);
+	my.push(80);
+	console.log(my);
+	my.push(60,70);
+	console.log(my);
+
+	var p=my.pop();
+	console.log(p);
+	console.log(my);
+	my.unshift(100);
+	console.log(my);
+
+
+	var s=my.shift();
+	console.log(s);
+	console.log(my);
+
+	var i=my.indexOf(80);
+	console.log(i);
+
+	var ii=my.indexOf(1000);
+	console.log(ii);
+
+	var li=[10,20,30,20,40,20];
+	var l=li.lastIndexOf(20);
+	console.log(l);
+
+
+	var o=[10,20,30];
+	var inc=o.includes(30);
+	console.log(inc);
+
+
+	var j=o.join('_');
+	console.log(j);
+
+
+	var r=[40,60,80,90];
+	var re=r.reverse();
+	console.log(re);
+
+
+	var c=[10,20,30];
+	var co=c.concat(40,50);
+	console.log(co);
+
+
+	var s=[1,10,11,2,22];
+	var sl=s.slice(1,3);
+	console.log(sl);
+
+
+	var sp=[1,10,11,2,22,3,5];
+	var spl=sp.splice(1,1);
+	console.log(spl);
+	console.log(sp);
+
+
+	var spa=sp.splice(1,3,100,200);
+	console.log(sp);
+</script>
+</html>
